@@ -6,4 +6,4 @@ This site is to reflects Professional Details about me.
 * Educational Backgroud
 * Work Experience
 * Certificates and Achievement
-* GitHub Profile(https://github.com/kneerace/)
+* GitHub Profile (https://github.com/kneerace/)
