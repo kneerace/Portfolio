@@ -1,63 +1,67 @@
- /* 
-	STYLE.CSS:
-	One stylesheet to rule them all.
-	
-	selector { property:value }
-	
-*/
-
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lato);
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald|Permanent+Marker');
 
 body {
-  background-color: #5f5345;
+background-color:#E7E4AC
 }
- 
-.pageContainer {
-  width: 940px;
-  margin: 20px auto 0 auto;
-  padding: 20px;
-  background-color: #fff;
+.dark-background{
+  background-color: #98900E;
 }
- 
-.imageContainer {
-  float: left;
-  width: 620px;
+.text-center{
+  text-align: center;
 }
- 
-.textContainer {
-  float: left;
-  width: 300px;
-  margin-left: 20px;
-  margin-top: 20px;
+.text-red{
+  color: DarkRed;
+  }
+
+header > div > h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  color: DarkRed;
 }
 
-img {
-  width: 100%;
-}
- 
-h1 {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 64px;
-  color: #8b1b00;
-}
- 
-p, li {
-  font-family: 'Lato', sans-serif;
-  font-size: 22px;
-  color: #51473b;
+/* header > div > nav > */
+ a.link { color: Orange;}
+ a.visited { color: white;}
+ a.hover{ color: DarkRed;}
+
+
+a {
+  padding: 0 15px 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #493736;
 }
 
-
-
-
-/* ---- Advanced ---- */
-/* This tag is a bit advanced for this lesson,  
-   but is needed to wrap the pageContainer 
-   around any sized content that is floated within it. */
-
-.pageContainer:after { 
-  content: " ";
-  display: table;
-  clear: both;
+header, nav, main, footer {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
 }
- 
+
+nav div {
+  width: 500px;
+  margin: auto;
+}
+section {
+ width:60%;
+ margin: 10px auto 10px auto;
+ text-align: left;
+}
+footer{
+  padding: 10px 0;
+ }
+
+hr{
+  width: 75%;
+  border: dotted #98900E 6px;
+  border-bottom: none;
+  margin: 30px auto 30px auto;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 10px;
+  padding: 5px 0;
+}
