@@ -5,13 +5,13 @@ background-color:#FFFBE9
 }
 
 .dark-background{
-  background-color: #AD8B73;
+  background-color: #361500;
 }
 .text-center{
   text-align: center;
 }
 .text-red{
-  color: DarkRed;
+  color: #CC9544;
   }
 
 header > div > h1 {
@@ -23,11 +23,12 @@ header > div > h1 {
 }
 h2{
     font-size: 18px;
+    color: #CC9544;
 }
 /* header > div > nav > */
- a.link { color: Orange;}
- a.visited { color: white;}
- a.hover{ color: DarkRed;}
+ .link { color: Orange;}
+ .visited { color: white;}
+ .hover{ color: DarkRed;}
 
 
 a {
