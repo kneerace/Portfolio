@@ -29,7 +29,7 @@ header > div > h1 {
 
 a {
   padding: 0 15px 10px 20px;
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: #dec7c5;
@@ -62,6 +62,6 @@ hr{
 
 .copyright{
   color: #EAF6F6;
-  font-size: 10px;
+  font-size: 14px;
   padding: 5px 0;
 }
